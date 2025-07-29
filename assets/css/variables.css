@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Inter Regular';
+  src: url('../fonts/static/Inter-Regular.ttf');
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+@font-face {
+  font-family: 'Inter SemiBold';
+  src: url('../fonts/static/Inter-SemiBold.ttf');
+  font-weight: 700;
+}
+
+:root {
+  /* Colors */
+  --green: #C4F82A;
+  --gray-900: #141414;
+  --gray-800: #1F1F1F;
+  --gray-700: #333333;
+  --white: #FFFFFF;
+
+  /* Fonts */
+  --font-default: 'Inter Regular', sans-serif;
+  --font-semi-bold: 'Inter SemiBold', sans-serif;
+  --font-extra-bold: 'Inter Bold', sans-serif;
+
+  /* Text Presets */
+  --text-preset-2: 14px;
+  --text-preset-1: 24px;
+
+  /* Spacing */
+  --spacing-50: 4px;
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 40px;
+
+  /* Border Radius */
+  --border-radius-50: 8px;
+  --border-radius-100: 12px;
+
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.text-preset-2 {
+  font-size: var(--text-preset-2);
+  font-family: var(--font-default);
+  letter-spacing: 0;
+  line-height: 150%;
+}
+
+.text-preset-2-bold {
+  font-size: var(--text-preset-2);
+  font-family: var(--font-semi-bold);
+  letter-spacing: 0;
+  line-height: 150%;
+}
+
+.text-preset-1-bold {
+  font-family: var(--font-semi-bold);
+  font-size: var(--text-preset-1);
+  letter-spacing: 0;
+  line-height: 150%;
+}
+
+.pt-150 {
+  padding-top: var(--spacing-150);
+}
